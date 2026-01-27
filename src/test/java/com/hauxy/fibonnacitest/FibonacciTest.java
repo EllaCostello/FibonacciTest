@@ -38,6 +38,7 @@ public class FibonacciTest {
         Assertions.assertEquals(1, Fibonacci.F(1));
     }
 
+
     @Test
     public void inputFireTest() {
         Assertions.assertEquals(3, Fibonacci.F(4));

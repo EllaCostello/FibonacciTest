@@ -10,15 +10,15 @@ public class Fibonacci {
         if (n == 0) return 0;
         if (n == 1) return 1;
 
-        int previous = 0;
-        int current = 1;
+        int previousNum = 0;
+        int currentNum = 1;
 
         for (int i = 2; i <= n; i++) {
-            int next = previous + current;
-            previous = current;
-            current = next;
+            int next = previousNum + currentNum;
+            previousNum = currentNum;
+            currentNum = next;
         }
 
-        return current;
+        return currentNum;
     }
 }
