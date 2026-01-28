@@ -10,18 +10,13 @@ public class Fibonacci {
 
         if (n == 0 || n == 1) {
             return n;
-        } else {
-            return F_help(n, 2);
         }
 
 
-
-
+        return n;
     }
 
-    private static int F_help(int n, int k) {
 
-    }
 
 
 
